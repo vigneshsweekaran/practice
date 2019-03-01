@@ -1,3 +1,3 @@
 first commit
 commit in third branch
-second commit in master
+second commit in third branch
