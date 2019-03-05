@@ -1,5 +1,3 @@
-package practice;
-
 public class mirror {
 	
 	public static void check(int row) {
