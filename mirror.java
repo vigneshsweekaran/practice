@@ -32,7 +32,7 @@ public class mirror {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		check(99);
+		check(9);
 	}
 
 }
