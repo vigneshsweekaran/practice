@@ -5,17 +5,26 @@ def isListOfInts(data):
             for x in data:
                 if(type(x) is not int):
                     output = False
+        return output
     else:
-        raise ValueError('{} - arg not of <list> type'.format(data))
-    return output
-print(isListOfInts([]))
-print(isListOfInts([1]))
-print(isListOfInts([1,4,8,9]))
-print(isListOfInts([0]))
-print(isListOfInts(['0']))
-print(isListOfInts([0,'a']))
-print(isListOfInts(['a',0]))
-print(isListOfInts([0,1.0]))
-print(isListOfInts([1.0,1.0]))
-print(isListOfInts([1,4,8,'9']))
-print(isListOfInts((1,2,5)))
+        try:
+            raise ValueError()
+        except ValueError :
+            print('ValueError: {} - arg not of <list> type'.format(data))
+
+def testList(data):
+    result = isListOfInts(data)
+    list = [True,False]
+    if (result in list):
+        print("{} --> {}".format(data,result))
+
+testList([])
+testList([1])
+testList([1,2])
+testList([0])
+testList(['1'])
+testList([1,'a'])
+testList(['a',1])
+testList([1, 1.])
+testList([1., 1.])
+testList((1,2))
