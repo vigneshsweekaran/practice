@@ -10,15 +10,16 @@ def justify(str, width):
         splited_char.append(x)
     data = "".join(splited_char)
     length = len(splited_char)
-    count = 1
+    count = 0
     while(length != width):
         if(data.find(splited_string[count]) != -1):
             index = data.find(splited_string[count])
-            splited_char.insert(index," ")
+            if (index > 1):
+                splited_char.insert(index," ")
+                data = "".join(splited_char)
             count +=1
-            data = "".join(splited_char)
         if(count == len(splited_string)):
-                count=1
+                count=0
         length = len(splited_char)
 
     for x in range (len(splited_string)):

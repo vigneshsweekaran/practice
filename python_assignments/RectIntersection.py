@@ -15,7 +15,12 @@ def  intersection(A,B):
     Posibility_3 = (B[0][0] in Xrange) and (B[0][1] in Yrange)
     # If second rectangle in left-down side
     Posibility_4 = (B[1][0] in Xrange) and (B[0][1] in Yrange)
-    if(Posibility_1):
+    # if co-ordinate are same
+    Posibility_5 = (A[0][0] == B[0][0]) or (A[1][0] == B[1][0])
+
+    if(Posibility_5):
+        print("None")
+    elif(Posibility_1):
         print ((B[0][0],A[0][1]),(A[1][0],B[1][1]))
     elif(Posibility_2):
         print ((A[0][0],A[0][1]),(B[1][0],B[1][1]))
