@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: openjdk11
+  pre_build:
+    commands:
+      - echo Nothing to dod in the pre_build phase...
+  buid:
+    commands:
+      - echo Build started on 'date'
+      - mvn install
+  post_build:
+    commands:
+      - eho Build completed on 'date'
+artifacts:
+  files:
+    - target/messageUtil-1.0.jar
+
