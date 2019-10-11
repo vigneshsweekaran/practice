@@ -1,0 +1,14 @@
+pipeline {
+    agent {label 'aws'}
+    stages {
+        stage('Stage1') {
+            steps {
+                script {
+                    env.node_name = "my_node_label"
+                    docker run nginx
+                }
+                echo "node_name: ${env.node_name}"
+            }
+        }
+    }
+}
