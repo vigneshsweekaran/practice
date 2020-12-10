@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "build-release-task",
-    "name": "Fabrikam Build and Release Tools",
+    "name": "Build Release Task",
     "version": "0.0.1",
     "publisher": "vignesh-sweekaran",
     "targets": [
@@ -9,7 +9,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],
-    "description": "Tools for building/releasing with Fabrikam. Includes one build/release task.",
+    "description": "build/release task.",
     "categories": [
         "Azure Pipelines"
     ],

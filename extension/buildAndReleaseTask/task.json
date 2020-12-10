@@ -1,12 +1,12 @@
 {
     "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-    "id": "{{taskguid}}",
-    "name": "{{taskname}}",
-    "friendlyName": "{{taskfriendlyname}}",
-    "description": "{{taskdescription}}",
+    "id": "44817e93-00d6-4d44-be99-067aa796a4b5",
+    "name": "custom-build-release-task",
+    "friendlyName": "custom-build-release-task",
+    "description": "custom-build-release-task",
     "helpMarkDown": "",
     "category": "Utility",
-    "author": "{{taskauthor}}",
+    "author": "vignesh sweekaran",
     "version": {
         "Major": 0,
         "Minor": 1,
