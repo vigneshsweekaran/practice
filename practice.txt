@@ -3,3 +3,4 @@ commit in third branch
 second commit in third branch
 commit in thired branch
 commit in master branch
+latest commit in master branch
