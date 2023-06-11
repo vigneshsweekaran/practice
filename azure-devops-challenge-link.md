@@ -1,5 +1,7 @@
 ## Links
 
+## Azure Devops Challenge (Playlist) - https://www.youtube.com/playlist?list=PLjo8_5rIVJhQ0sHFv9J03ceqZTfGj43FV
+
 ### Tomcat - https://www.youtube.com/watch?v=ftOx6vKP5bU
 ### Parallel Job and depends on - https://www.youtube.com/watch?v=ikpkwe4uPs4
 ### Pipeline artifacts - https://www.youtube.com/watch?v=V8iEGduHTrc
