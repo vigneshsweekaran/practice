@@ -12,3 +12,4 @@
 ### Github actions: Parallel job, different-runner, needs and artifacts - https://www.youtube.com/watch?v=UOMMSl47AG4
 ### Github actions: Cache - https://www.youtube.com/watch?v=fNkYsC-BSxI
 ### Deploy to tomcat using maven - https://www.youtube.com/watch?v=8QJV6oB7ALk
+### Github actions: Deploy to tomcat - https://www.youtube.com/watch?v=6BHTQZAZy68
