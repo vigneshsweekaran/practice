@@ -13,3 +13,6 @@
 ### Github actions: Cache - https://www.youtube.com/watch?v=fNkYsC-BSxI
 ### Deploy to tomcat using maven - https://www.youtube.com/watch?v=8QJV6oB7ALk
 ### Github actions: Deploy to tomcat - https://www.youtube.com/watch?v=6BHTQZAZy68
+
+### Docker: Virtual Machine vs Docker - https://www.youtube.com/watch?v=ek7l0nzF8Fg
+### Docker: How to create docker containers - https://www.youtube.com/watch?v=gqWvWZBqYpU
