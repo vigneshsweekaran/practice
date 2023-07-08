@@ -6,12 +6,13 @@
 ### AZ 104 - Prerequisite - AZ 900 Part - 3 (VM): https://www.youtube.com/watch?v=SzDcTFfp4YY
 ### AZ 104 - Prerequisite - AZ 900 Part - 4 (Container Instances): https://www.youtube.com/watch?v=OZSPyHaCiK4
 ### AZ 104 - Prerequisite - AZ 900 Part - 5 (Azure Function & App service): https://www.youtube.com/watch?v=I3mjkFBsqsI
-### AZ 104 - Prerequisite - AZ 900 Part - 6:
+### AZ 104 - Prerequisite - AZ 900 Part - 6 (Virtual Private Network): https://www.youtube.com/watch?v=WV0DNZwa7-c
 ### AZ 104 - Prerequisite - AZ 900 Part - 7:
 ### AZ 104 - Prerequisite - AZ 900 Part - 8:
 
 ## Reference
 ### Static web apps : https://learn.microsoft.com/en-gb/azure/static-web-apps/get-started-portal?pivots=github&wt.mc_id=azurestaticwebapps_inline_inproduct_general&tabs=vanilla-javascript
+
 
 ## Azure learn sandbox
 ### Virtual Machine: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/3-exercise-create-azure-virtual-machine
