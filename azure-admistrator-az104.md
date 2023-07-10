@@ -6,8 +6,8 @@
 ### AZ 104 - Prerequisite - AZ 900 Part - 3 (VM): https://www.youtube.com/watch?v=SzDcTFfp4YY
 ### AZ 104 - Prerequisite - AZ 900 Part - 4 (Container Instances): https://www.youtube.com/watch?v=OZSPyHaCiK4
 ### AZ 104 - Prerequisite - AZ 900 Part - 5 (Azure Function & App service): https://www.youtube.com/watch?v=I3mjkFBsqsI
-### AZ 104 - Prerequisite - AZ 900 Part - 6 (Virtual Private Network): https://www.youtube.com/watch?v=WV0DNZwa7-c
-### AZ 104 - Prerequisite - AZ 900 Part - 7:
+### AZ 104 - Prerequisite - AZ 900 Part - 6 (Virtual Network): https://www.youtube.com/watch?v=WV0DNZwa7-c
+### AZ 104 - Prerequisite - AZ 900 Part - 7 (Virtual Network - Demo): https://www.youtube.com/watch?v=NmPavUD5OsM
 ### AZ 104 - Prerequisite - AZ 900 Part - 8:
 
 ## Reference
