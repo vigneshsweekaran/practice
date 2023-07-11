@@ -8,7 +8,7 @@
 ### AZ 104 - Prerequisite - AZ 900 Part - 5 (Azure Function & App service): https://www.youtube.com/watch?v=I3mjkFBsqsI
 ### AZ 104 - Prerequisite - AZ 900 Part - 6 (Virtual Network): https://www.youtube.com/watch?v=WV0DNZwa7-c
 ### AZ 104 - Prerequisite - AZ 900 Part - 7 (Virtual Network - Demo): https://www.youtube.com/watch?v=NmPavUD5OsM
-### AZ 104 - Prerequisite - AZ 900 Part - 8:
+### AZ 104 - Prerequisite - AZ 900 Part - 8 (Storage account): https://www.youtube.com/watch?v=dfK87zcZzLI
 
 ## Reference
 ### Static web apps : https://learn.microsoft.com/en-gb/azure/static-web-apps/get-started-portal?pivots=github&wt.mc_id=azurestaticwebapps_inline_inproduct_general&tabs=vanilla-javascript
