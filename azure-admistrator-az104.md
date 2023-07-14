@@ -9,6 +9,8 @@
 ### AZ 104 - Prerequisite - AZ 900 Part - 6 (Virtual Network): https://www.youtube.com/watch?v=WV0DNZwa7-c
 ### AZ 104 - Prerequisite - AZ 900 Part - 7 (Virtual Network - Demo): https://www.youtube.com/watch?v=NmPavUD5OsM
 ### AZ 104 - Prerequisite - AZ 900 Part - 8 (Storage account): https://www.youtube.com/watch?v=dfK87zcZzLI
+### AZ 104 - Prerequisite - AZ 900 Part - 9 (Azure Ad): https://www.youtube.com/watch?v=5ep1Bkaxx-Y
+### AZ 104 - Prerequisite - AZ 900 Part - 10 (Azure cost calculator and TCO): https://www.youtube.com/watch?v=hyNpylGGfgA
 
 ## Reference
 ### Static web apps : https://learn.microsoft.com/en-gb/azure/static-web-apps/get-started-portal?pivots=github&wt.mc_id=azurestaticwebapps_inline_inproduct_general&tabs=vanilla-javascript
