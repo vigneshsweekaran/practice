@@ -23,7 +23,7 @@
 ### Nwtwork security group: https://learn.microsoft.com/en-us/training/modules/describe-azure-compute-networking-services/9-exercise-configure-network-access
 
 ### Schedule
-[Az104](https://www.youtube.com/watch?v=I1zvntPHNMk&t=497s)
+[Youtube video - Az104](https://www.youtube.com/watch?v=I1zvntPHNMk&t=497s)
 
 ```
 00:03:14 ⏩ Azure Active Directory - Raghav
