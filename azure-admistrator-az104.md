@@ -11,6 +11,8 @@
 ### AZ 104 - Prerequisite - AZ 900 Part - 8 (Storage account): https://www.youtube.com/watch?v=dfK87zcZzLI
 ### AZ 104 - Prerequisite - AZ 900 Part - 9 (Azure Ad): https://www.youtube.com/watch?v=5ep1Bkaxx-Y
 ### AZ 104 - Prerequisite - AZ 900 Part - 10 (Azure cost calculator and TCO): https://www.youtube.com/watch?v=hyNpylGGfgA
+### AZ 104 - Prerequisite - AZ 900 Part - 11 (Azure Blueprints, policy, locks): https://www.youtube.com/watch?v=s0AhOeNC0iQ
+### AZ 104 - Prerequisite - AZ 900 Part - 12 (Azure cli, ARM template,Advisor,Service Health, Monitor):
 
 ## Reference
 ### Static web apps : https://learn.microsoft.com/en-gb/azure/static-web-apps/get-started-portal?pivots=github&wt.mc_id=azurestaticwebapps_inline_inproduct_general&tabs=vanilla-javascript
