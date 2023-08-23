@@ -13,6 +13,7 @@
 ### AZ 104 - Prerequisite - AZ 900 Part - 10 (Azure cost calculator and TCO): https://www.youtube.com/watch?v=hyNpylGGfgA
 ### AZ 104 - Prerequisite - AZ 900 Part - 11 (Azure Blueprints, policy, locks): https://www.youtube.com/watch?v=s0AhOeNC0iQ
 ### AZ 104 - Prerequisite - AZ 900 Part - 12 (Azure cli, ARM template,Advisor,Service Health, Monitor):
+### AZ 104 - Container instance and AKS : https://www.youtube.com/watch?v=AOJAApzNCjQ
 
 ## Reference
 ### Static web apps : https://learn.microsoft.com/en-gb/azure/static-web-apps/get-started-portal?pivots=github&wt.mc_id=azurestaticwebapps_inline_inproduct_general&tabs=vanilla-javascript
