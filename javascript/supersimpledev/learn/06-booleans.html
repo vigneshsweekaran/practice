@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booleans</title>
+</head>
+<body>
+  <script>
+    true
+    false
+    console.log(typeof true);
+
+    console.log(3 < 5);
+    console.log(3 > 5);
+
+    /* ==*/
+    console.log('== and ===')
+    console.log(5 == '5.00') // == converts both into same type and then checks whether both are equal
+    console.log(5 === '5.00') // === checks whether both are equal, will not convert to same datatype
+    console.log(5 === 5.00)
+    console.log(5 === 5.10)
+
+    // If statements
+    console.log('if statements')
+    if (true) {
+      console.log('hello')
+    } else {
+      console.log('else')
+    }
+
+    // If statements checking age
+    console.log('Checking age')
+    const age = 15;
+    if (age >= 16) {
+      console.log('You can Drive')
+    } else if (age >= 14) {
+      console.log('Almost there')
+    } else {
+      console.log('You cannot Drive')
+    }
+
+    // &&, ||, !
+    console.log(true && true)
+    console.log(true || false)
+    console.log(!true)
+
+    // truthy and falsy values (false, 0, '', NaN, undefined, null)
+    if (5) {
+      console.log('truthy');
+    }
+
+    // NaN - not a number
+    console.log('text' / 5);
+
+    // undefined
+    let variable1;
+    console.log(variable1);
+
+    // Ternary operator
+    const result = true ? 'truthy' : 'falsy';
+    console.log(result);
+
+    // Guard operator
+    // if the first statement is false, it wont check the right one
+    false && console.log('hello');
+    const message = false && 'hello'
+    console.log(message);
+
+    //||
+    //const currency = 'EUR' || 'USD';  can be used to define default values for variables
+    const currency = undefined || 'USD';
+    console.log(currency);
+
+
+  </script>
+</body>
+</html>

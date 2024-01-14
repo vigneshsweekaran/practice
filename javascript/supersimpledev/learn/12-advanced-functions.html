@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Functions</title>
+</head>
+<body>
+  <button class="js-button">Click</button>
+
+  <script>
+    function greeting() {
+      console.log('hello');
+    }
+    greeting();
+
+    // Storing function to variable
+    const function1 = function greeting () {
+      console.log('hello2');
+    };
+    console.log(function1);
+    console.log(typeof function1)
+    function1(); // To call the function we can use variable name also
+
+    // Anonymus function, function without name
+    // Hoisting: can call the function before defining it. order not matters
+    const function2 = function () { // Hoisting wont work if we save the function to variable
+      console.log('hello2');
+    };
+    console.log(function2);
+    console.log(typeof function2)
+    function2();
+
+    // declaring function in object
+    const object1 = {
+      num: 2,
+      fun: function () {
+        console.log('hello3');
+      }
+    };
+    object1.fun();
+
+    // Passing a value into function
+    function display(param){
+      console.log(param);
+    }
+    display(2);
+
+    // Passing function into function
+    function run(param) {
+      param();
+    }
+    run(function() {
+      console.log('hello4')
+    }); // The function we passing here is called callback function
+    
+    // Asynchronous code
+    setTimeout(function() { // Will run the function after certain amount of time
+      console.log('timeout');
+      console.log('timeout2')
+    }, 3000); // In milliseconds
+
+    console.log('next line');
+
+    // setInterval() - keep running the function , every interval defined
+    // setInterval(function() {
+    //   console.log('interval');
+    // }, 3000);
+
+    [
+      'make dinner',
+      'wash dishes',
+      'watch youtube'
+    ].forEach(function(value, index) {
+      if (value === 'wash dishes') {
+        return;
+      }
+      console.log(index)
+      console.log(value)
+    });
+
+    //arrow function
+    const arrowFunction = (param, paam2) => {
+      console.log('hello');
+      return 5;
+    }
+    arrowFunction();
+
+    const oneParam = param => { // parenthesis are optional if only one parameter
+      console.log(param +1);
+    }
+    oneParam(2);
+
+    // const oneLine = () => { return 2+3; }
+    // One line arrow function, curly braces are optional
+    
+    const oneLine = () => 2 + 3;
+    console.log(oneLine());
+
+    // foreach with arrow function
+    [
+      'make dinner',
+      'wash dishes',
+      'watch youtube'
+    ].forEach((value, index) => {
+      if (value === 'wash dishes') {
+        return;
+      }
+      console.log(index)
+      console.log(value)
+    });
+
+    // Arrow function inside object
+    const object2 = {
+      method: () => {
+
+      },
+      method() { // shorthand
+
+      }
+    }
+    const eventListener = () => {
+      console.log('click')
+    }
+    const buttonElement =  document.querySelector('.js-button');
+    buttonElement.addEventListener('click', eventListener);
+
+    buttonElement.removeEventListener('click', eventListener);
+
+    buttonElement.addEventListener('click', () => {
+      console.log('click2')
+    });
+
+    // filter() return the value, if it validates in function
+    console.log([1, -3, 5].filter((value, index) => {
+      // if (value >= 0) {
+      //   return true
+      // } else {
+      //   return false
+      // }
+      return value >=0;
+    }));
+
+    // map() --> transforms array to new array
+    console.log([1, 1, 3].map((value, index) => {
+      return value * 2;
+    }));
+
+    // shortcuts for arrow function
+    console.log([1, 1, 3].map(value => value * 2 ));
+
+  </script>
+</body>
+</html>
