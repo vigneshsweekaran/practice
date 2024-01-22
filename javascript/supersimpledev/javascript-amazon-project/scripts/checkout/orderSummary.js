@@ -111,7 +111,6 @@ export function renderOrderSummary() {
         </div>
       `
     });
-    console.log(html);
 
     return html;
   }

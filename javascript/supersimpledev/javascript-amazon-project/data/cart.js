@@ -12,8 +12,6 @@ if (!cart) {
   }];
 }
 
-console.log(cart);
-
 function saveToStorage() {
   localStorage.setItem('cart', JSON.stringify(cart))
 }
