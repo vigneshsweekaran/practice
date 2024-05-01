@@ -1,6 +1,6 @@
 # Docker Assignments
 
-1. Write a Dockerfile to install git, java 11 and maven in Ubuntu docker image, build the image, create the container and verify the version of each packages
+### Write a Dockerfile to install git, java 11 and maven in Ubuntu docker image, build the image, create the container and verify the version of each packages
 
 ```Dockerfile
 FROM ubuntu:24.04
@@ -19,7 +19,7 @@ Create container
 docker run -it myubuntu:1.0 bash
 ```
 
-2. Write a Dockerfile `ubuntuGradle.Dockerfile` to install git, wget, java 11 and gradle using Ubuntu docker image, build the image, create the container and verify the version of each packages
+### Write a Dockerfile `ubuntuGradle.Dockerfile` to install git, wget, java 11 and gradle using Ubuntu docker image, build the image, create the container and verify the version of each packages
 ```Dockerfile
 FROM ubuntu:latest
 
@@ -41,7 +41,7 @@ Create container
 docker run -it ubuntu-gradle:1.0 bash
 ```
 
-3. Write a Dockerfile `centosGradle.Dockerfile` to install git, java 11 and gradle using Centos docker image, build the image, create the container and verify the version of each packages
+### Write a Dockerfile `centosGradle.Dockerfile` to install git, java 11 and gradle using Centos docker image, build the image, create the container and verify the version of each packages
 ```Dockerfile
 FROM centos:latest
 
@@ -70,7 +70,7 @@ Create container
 docker run -it centos-gradle:1.0 bash
 ```
 
-4. Write a Dockerfile `alpineGradle.Dockerfile` to install git, java 11 and gradle using Alpine docker image, build the image, create the container and verify the version of each packages
+### Write a Dockerfile `alpineGradle.Dockerfile` to install git, java 11 and gradle using Alpine docker image, build the image, create the container and verify the version of each packages
 ```Dockerfile
 FROM alpine:latest
 
