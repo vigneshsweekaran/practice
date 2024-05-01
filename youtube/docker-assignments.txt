@@ -1,0 +1,20 @@
+# Docker Assignments
+
+1. Write a Dockerfile to install git, java 11 and maven in Ubuntu docker image, build the image, create the container and verify the version of each packages
+
+```Dockerfile
+FROM ubuntu:24.04
+
+RUN apt update -y && \
+    apt install git openjdk-11-jdk maven -y
+```
+
+Build docker image
+```
+docker build -t myubuntu:1.0 .
+```
+
+Create container
+```
+docker run -d --name newubuntu myubuntu:1.0 sleep infinity
+```
