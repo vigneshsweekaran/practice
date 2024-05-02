@@ -1,6 +1,6 @@
 # Docker Assignments
 
-### Write a Dockerfile to install git, java 11 and maven in Ubuntu docker image, build the image, create the container and verify the version of each packages
+### 1. Write a Dockerfile to install git, java 11 and maven in Ubuntu docker image, build the image, create the container and verify the version of each packages
 
 ```Dockerfile
 FROM ubuntu:24.04
@@ -19,7 +19,7 @@ Create container
 docker run -it myubuntu:1.0 bash
 ```
 
-### Write a Dockerfile `ubuntuGradle.Dockerfile` to install git, wget, java 11 and gradle using Ubuntu docker image, build the image, create the container and verify the version of each packages
+### 2. Write a Dockerfile `ubuntuGradle.Dockerfile` to install git, wget, java 11 and gradle using Ubuntu docker image, build the image, create the container and verify the version of each packages
 ```Dockerfile
 FROM ubuntu:latest
 
@@ -41,7 +41,7 @@ Create container
 docker run -it ubuntu-gradle:1.0 bash
 ```
 
-### Write a Dockerfile `centosGradle.Dockerfile` to install git, java 11 and gradle using Centos docker image, build the image, create the container and verify the version of each packages
+### 3. Write a Dockerfile `centosGradle.Dockerfile` to install git, java 11 and gradle using Centos docker image, build the image, create the container and verify the version of each packages
 ```Dockerfile
 FROM centos:latest
 
@@ -70,7 +70,7 @@ Create container
 docker run -it centos-gradle:1.0 bash
 ```
 
-### Write a Dockerfile `alpineGradle.Dockerfile` to install git, java 11 and gradle using Alpine docker image, build the image, create the container and verify the version of each packages
+### 4. Write a Dockerfile `alpineGradle.Dockerfile` to install git, java 11 and gradle using Alpine docker image, build the image, create the container and verify the version of each packages
 ```Dockerfile
 FROM alpine:latest
 
@@ -94,4 +94,24 @@ docker build -t alpine-gradle:1.0 -f alpineGradle.Dockerfile .
 Create container
 ```
 docker run -it alpine-gradle:1.0 bash
+```
+
+### 5. Write a Dockerfile `ubuntuMavenSleep.Dockerfile` to install git, java 11 and mqven using ubuntu docker image, add the sleep infinity in Dockerfile, build the image, create the container and verify the version of each packages
+```Dockerfile
+FROM ubuntu:24.04
+
+RUN apt update -y && \
+    apt install git openjdk-11-jdk maven -y
+
+CMD ["sleep","infinity"]
+```
+
+Build docker image
+```
+docker build -t ubuntu-maven-sleep:1.0 -f ubuntuMavenSleep.Dockerfile .
+```
+
+Create container to run in background, no need to pass sleep infinity, since sleep infinity is already specified in Dockefile CMD
+```
+docker run -d ubuntu-maven-sleep:1.0
 ```
