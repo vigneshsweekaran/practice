@@ -96,7 +96,7 @@ Create container
 docker run -it alpine-gradle:1.0 bash
 ```
 
-### 5. Write a Dockerfile `ubuntuMavenSleep.Dockerfile` to install git, java 11 and mqven using ubuntu docker image, add the sleep infinity in Dockerfile, build the image, create the container and verify the version of each packages
+### 5. Write a Dockerfile `ubuntuMavenSleep.Dockerfile` to install git, java 11 and maven using ubuntu docker image, add the sleep infinity in Dockerfile, build the image, create the container and verify the version of each packages
 ```Dockerfile
 FROM ubuntu:24.04
 
@@ -114,6 +114,38 @@ docker build -t ubuntu-maven-sleep:1.0 -f ubuntuMavenSleep.Dockerfile .
 Create container to run in background, no need to pass sleep infinity, since sleep infinity is already specified in Dockefile CMD
 ```
 docker run -d ubuntu-maven-sleep:1.0
+```
+
+Verify container is running
+```
+docker ps
+```
+
+### 6. Write a Dockerfile `tomcat.Dockerfile` to install java 11 and tomcat9 using ubuntu docker image, add by default start the tomcat when the container is started, build the image, create the container and verify the version of each packages
+```Dockerfile
+FROM ubuntu:24.04
+
+RUN apt update -y && \
+    apt install curl openjdk-11-jdk -y
+
+WORKDIR /opt
+
+RUN curl https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.88/bin/apache-tomcat-9.0.88.tar.gz -o apache-tomcat-9.0.88.tar.gz && \
+    tar -xvf apache-tomcat-9.0.88.tar.gz && \
+    rm -rf apache-tomcat-9.0.88.tar.gz
+
+CMD ["/opt/apache-tomcat-9.0.88/bin/catalina.sh", "run"]
+
+```
+
+Build docker image
+```
+docker build -t mytomcat:1.0 -f tomcat.Dockerfile .
+```
+
+Create container to run in background and map the host port 8080 to container port 8080
+```
+docker run -d -p 8080:8080 mytomcat:1.0
 ```
 
 Verify container is running
