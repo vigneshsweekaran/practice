@@ -115,3 +115,8 @@ Create container to run in background, no need to pass sleep infinity, since sle
 ```
 docker run -d ubuntu-maven-sleep:1.0
 ```
+
+Verify container is running
+```
+docker ps
+```
